@@ -6,8 +6,12 @@ for char in var1:
     reversed_str = char + reversed_str;
 print(reversed_str);"""
 
+<<<<<<< HEAD:reverse a string.py
 # using function to reverse a string 
 
+=======
+# using function to reverse a string
+>>>>>>> 12e0b06e43bc2d71a8532e3ba139e39921993a3e:secondlargestnumbrinlist.py
 def reverse_string(input_str)-> str:
     if not isinstance(input_str, str):
         raise ValueError("Input must be a string")
