@@ -6,6 +6,8 @@ for char in var1:
     reversed_str = char + reversed_str;
 print(reversed_str);"""
 
+# using function to reverse a string 
+
 def reverse_string(input_str)-> str:
     if not isinstance(input_str, str):
         raise ValueError("Input must be a string")
